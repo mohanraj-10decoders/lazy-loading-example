@@ -33,7 +33,7 @@ class App extends React.Component {
         <Suspense
           fallback={
             <div className='loader' style={styles}>
-              Loading...
+              Loading.....
             </div>
           }
         >
