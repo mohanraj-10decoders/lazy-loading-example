@@ -12,6 +12,10 @@ h1 {
   border: 5px solid rgb(93, 171, 207);
   border-radius: 8px;
   background: lightblue;
-  
+}
+.imageContainer{
+  height: 100vh;
+  overflow-y: auto;
+  background-color: gray;
 }
 
