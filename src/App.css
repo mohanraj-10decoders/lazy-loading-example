@@ -5,6 +5,7 @@
 h1 {
   padding: 30px;
 }
+
 #card-body {
   display: inline-flex;
   padding: 10px;
@@ -13,9 +14,9 @@ h1 {
   border-radius: 8px;
   background: lightblue;
 }
-.imageContainer{
+
+.imageContainer {
   height: 100vh;
   overflow-y: auto;
   background-color: gray;
 }
-

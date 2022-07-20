@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import artists from './store';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Artists() {
   const images = [
@@ -11,6 +12,7 @@ export default function Artists() {
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YK5K9cMV46KvJJM8jQ71m3eGGOmHlehrexn0WEBcbfL_hnEy2m5n69x-Td_aZduJKiQ&usqp=CAU',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS23hGuKQ1gkrkS9QGF4QOnE5OpDBco0N0C3oiK5EuW75fz4Nakk450S_8tA4MEbsREpH0&usqp=CAU',
   ];
+
   return (
     <>
       <div style={{ height: '100vh' }}>
@@ -74,7 +76,7 @@ export default function Artists() {
       <div className='imageContainer'>
         {images.map((image, index) => (
           <div key={index}>
-            <img
+            <LazyLoadImage
               width='200'
               height='200'
               src={image}
