@@ -75,8 +75,9 @@ export default function Artists() {
         {images.map((image, index) => (
           <div key={index}>
             <img
-              data-src={image}
-              loading='lazy'
+              width='200'
+              height='200'
+              src={image}
               alt='artist'
               className='image'
             />
