@@ -16,7 +16,7 @@ export default function Artists() {
   return (
     <>
       <div style={{ height: '100vh' }}>
-        <h1>MTV Base Headline Artists 2019</h1>
+        <h1>MTV Base Headline Artists 2022</h1>
         {artists.map((artist) => (
           <div id='card-body' key={artist.id}>
             <div className='card'>
